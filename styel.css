@@ -1,0 +1,80 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+ 
+h1{
+    font-size: 200%;
+}
+h3{
+    font-size: 120%;
+}
+ 
+.red-highlight{
+   color: rgb(236, 6, 6);
+}
+ 
+.a{
+    width: 40%;
+    float: left;
+   margin: 2%;
+}
+   
+.a img {
+    width: 80%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height:500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(red, black);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color:white;
+    font-weight: 700;
+}
+.b{
+    width: 40%;
+    float: right;
+   margin: 2%;
+}
+.b img {
+    width: 80%;
+}
+ 
+#background{
+    background-image: url(images/exp-bg.png);
+    
+    background-repeat: no-repeat;
+    background-position: left;
+}    
+.single-experience{
+    box-shadow:10px 10px 40px yellowgreen;
+    border-radius: 10px;
+    height: 40%;
+    padding: 10px;
+    
+}
+.experience{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+ 
+#stack-web{
+    border-left:7px solid;
+    border-image: linear-gradient(blue, #00ccff    );
+    border-image-slice: 1;
+ 
+}
+#babu-web{ border-left:7px solid;
+    border-image: linear-gradient(rgb(245, 11, 11), #00080a    );
+    border-image-slice: 1;}
+footer p{
+    text-align: center;
+}
